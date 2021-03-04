@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Qualify test CRAFT'
+primary: true
+siteGroup: 1bf75d36-aeb8-4bec-9618-c949378ef9a8 # Qualify test CRAFT
+sortOrder: 1
