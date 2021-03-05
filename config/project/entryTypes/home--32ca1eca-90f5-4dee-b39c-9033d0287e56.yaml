@@ -179,6 +179,15 @@ fieldLayouts:
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
+          -
+            fieldUid: e7d53cdd-7677-4bc2-b23d-7320206b6919 # home-testi
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Content
         sortOrder: 1
 handle: home

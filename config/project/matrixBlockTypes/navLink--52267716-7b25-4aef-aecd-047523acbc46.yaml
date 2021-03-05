@@ -1,0 +1,70 @@
+field: 76881f60-c015-4e32-ac2f-75c602ed345d # navigation
+fieldLayouts:
+  3a965c8f-a94f-44b1-9a09-810d2dde0258:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4d328e4d-baeb-4b1f-91ac-f5ea152e0b0c # Link Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: cdb0659c-8ae3-45e7-826c-a3ccff90143c # Link Destination
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4d328e4d-baeb-4b1f-91ac-f5ea152e0b0c: # Link Text
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkText
+    instructions: ''
+    name: 'Link Text'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  cdb0659c-8ae3-45e7-826c-a3ccff90143c: # Link Destination
+    contentColumnType: string
+    fieldGroup: null
+    handle: linkDestination
+    instructions: ''
+    name: 'Link Destination'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: '1'
+      localizeRelations: false
+      selectionLabel: 'Add a link destination'
+      showSiteMenu: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: navLink
+name: Nav-Link
+sortOrder: 1

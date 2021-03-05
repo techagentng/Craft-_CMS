@@ -1,11 +1,11 @@
 enableVersioning: true
-handle: home
-name: home
+handle: contact
+name: contact
 propagationMethod: all
 siteSettings:
   f331ccb8-ea07-4a40-96a1-2a7416f82a79: # Qualify test CRAFT
     enabledByDefault: true
     hasUrls: true
-    template: home
-    uriFormat: __home__
+    template: contact
+    uriFormat: contact
 type: single

@@ -1,0 +1,18 @@
+fieldLayouts:
+  4e3a1d46-98e9-4217-868d-df4dd6cac599:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4bdba520-aa49-456f-b7e5-eceb9355528a # Navigation-panel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: content
+        sortOrder: 1
+handle: header
+name: Header
