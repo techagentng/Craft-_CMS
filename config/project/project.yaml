@@ -1,8 +1,13 @@
-dateModified: 1614889262
+dateModified: 1614941800
 email:
   fromEmail: techagentng@gmail.com
   fromName: 'Qualify test CRAFT'
   transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true

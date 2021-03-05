@@ -19,7 +19,9 @@ return [
 
     // Whether generated URLs should omit "index.php"
     'omitScriptNameInUrls' => true,
-
+    'aliases' => [
+        '@rootUrl' => getenv('ROOT_URL'),
+    ],
     // The URI segment that tells Craft to load the control panel
     'cpTrigger' => App::env('CP_TRIGGER') ?: 'admin',
 
